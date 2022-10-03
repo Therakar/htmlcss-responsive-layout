@@ -18,7 +18,6 @@
     #highlights .col{
         width: calc(100% / 3);
     }
-    
 }
 
 /* vw > 62rem */
@@ -30,6 +29,11 @@
     }
     .main-nav{
         display: block;
+    }
+
+    /* main-planning */
+    #planning .col{
+        width: 50%;
     }
 }
 
