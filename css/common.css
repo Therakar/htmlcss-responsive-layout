@@ -55,3 +55,14 @@ section{
     height: 300px;
 }
 
+.debug-about-us{
+    background-color: blue;
+    width: 100%;
+    height: 300px;
+}
+
+.debug-get-started{
+    background-color: red;
+    width: 100%;
+    height: 300px;
+}

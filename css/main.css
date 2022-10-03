@@ -19,3 +19,16 @@
 #benefits{
     background-color: var(--second-color);
 }
+
+/* GET STARTED SECTION */
+#get-started{
+    background-color: var(--second-color);
+}
+
+/* FOOTER */
+footer{
+    background-color: var(--third-color);
+    color: white;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
