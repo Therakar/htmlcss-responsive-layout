@@ -18,6 +18,15 @@
     #highlights .col{
         width: calc(100% / 3);
     }
+
+    /* main-benefits */
+    #benefits .col:first-child{
+        width: 100%;
+    }
+
+    #benefits .col{
+        width: calc(100% / 2);
+    }
 }
 
 /* vw > 62rem */
@@ -34,6 +43,12 @@
     /* main-planning */
     #planning .col{
         width: 50%;
+    }
+
+    /* main-benefits */
+    
+    #benefits .col{
+        width: calc(100% / 3);
     }
 }
 
