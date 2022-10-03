@@ -5,3 +5,13 @@
     padding: 0 .625rem;
 }
 
+.card{
+    background-color: var(--first-color-light);
+    width: 100%;
+}
+
+/* PLANNING SECTION */
+#planning{
+    background-color: var(--second-color);
+}
+

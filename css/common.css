@@ -51,7 +51,6 @@ section{
 /* DEBUG */
 
 .debug{
-    background-color: var(--first-color-light);
     width: 100%;
     height: 300px;
 }

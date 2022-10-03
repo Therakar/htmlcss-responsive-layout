@@ -7,7 +7,7 @@
     display: none;
 }
 
-/* vw > 30rem */
+/* vw > 48rem */
 @media  screen and (min-width: 48rem) {
 
     /* main-highligts */
@@ -21,7 +21,7 @@
     
 }
 
-/* vw > 48rem */
+/* vw > 62rem */
 @media screen and (min-width: 62rem){
     
     /* header */
