@@ -9,6 +9,12 @@
 .row{
     display: flex;
     flex-wrap: wrap;
+    margin-right: -0.625rem;
+    margin-left: -0.625rem;
+}
+
+section{
+    padding: 1.875rem 0;
 }
 
 /* TYPHOGRAPHY */
@@ -44,7 +50,8 @@
 
 /* DEBUG */
 
-.col{
+.debug{
+    background-color: var(--first-color-light);
     width: 100%;
     height: 300px;
 }

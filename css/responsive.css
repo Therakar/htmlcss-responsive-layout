@@ -1,10 +1,30 @@
 
+
+
+
+
 .main-nav{
     display: none;
 }
 
+/* vw > 30rem */
+@media  screen and (min-width: 48rem) {
+
+    /* main-highligts */
+    #highlights .col:first-child{
+        width: calc((100% / 3) * 2);
+    }
+
+    #highlights .col{
+        width: calc(100% / 3);
+    }
+    
+}
+
 /* vw > 48rem */
-@media screen and (min-width: 48.0625rem){
+@media screen and (min-width: 62rem){
+    
+    /* header */
     .hamburger{
         display: none;
     }
@@ -12,3 +32,4 @@
         display: block;
     }
 }
+
