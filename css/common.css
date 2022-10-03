@@ -10,13 +10,29 @@
     display: flex;
 }
 
-/* COMMON */
+/* TYPHOGRAPHY */
+.list-inline{
+    list-style: none;
+}
+
+.list-inline a{
+    text-decoration: none;
+    color: white;
+}
+
+/* FLEX */
+.flex{
+    display: flex;
+}
+
 .justify-space-between{
     justify-content: space-between;
 }
-
+.align-items-center{
+    align-items: center;
+}
 /* BUTTONS */
-.btn{
+.hamburger{
     border: none;
     background: none;
     color: white;
