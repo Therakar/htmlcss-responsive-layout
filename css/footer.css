@@ -1,0 +1,7 @@
+/* FOOTER */
+footer{
+    background-color: var(--third-color);
+    color: white;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}

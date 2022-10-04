@@ -1,8 +1,11 @@
 @import "reset.css";
 @import "common.css";
+@import "typography.css";
+@import "interactive.css";
 @import "custom-properties.css";
 @import "header.css";
 @import "main.css";
 @import "footer.css";
 @import "responsive.css";
+
 

@@ -1,34 +1,40 @@
-/* HIGHLIGHTS SECTION */
-.col{
-    width: 100%;
-    margin: .625rem 0;
-    padding: 0 .625rem;
+/* BACKGROUND */
+section:nth-last-of-type(odd){
+    background-color: var(--second-color);
 }
 
-.card{
+/* HIGHLIGHTS SECTION */
+#highlights .card{
     background-color: var(--first-color-light);
+    border-radius: 1.25rem;
+}
+
+#highlights .card:first-child{
+    padding-bottom: 0;
+}
+
+#highlights h2{
+    color: var(--first-color);
+}
+
+#highlights img{
+    padding-top: 1.25rem;
     width: 100%;
+}
+
+h2{
+    padding-bottom: 1.25rem;
+}
+
+.card p{
+    line-height: 1.9;
+    padding-bottom: 1.25rem;
 }
 
 /* PLANNING SECTION */
-#planning{
-    background-color: var(--second-color);
-}
 
 /* BENEFITS SECTION */
-#benefits{
-    background-color: var(--second-color);
-}
 
 /* GET STARTED SECTION */
-#get-started{
-    background-color: var(--second-color);
-}
 
-/* FOOTER */
-footer{
-    background-color: var(--third-color);
-    color: white;
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
-}
+

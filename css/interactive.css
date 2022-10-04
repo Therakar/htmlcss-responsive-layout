@@ -1,0 +1,20 @@
+/* BUTTONS */
+.hamburger{
+    border: none;
+    background: none;
+    color: white;
+    font-size: 1.7rem;
+}
+
+.btn{
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+.highligts-btn{
+    width: 100%;
+    background-color: var(--first-color);
+    color: white;
+}

@@ -2,6 +2,13 @@ header{
     background-color: var(--first-color);
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
+    position: sticky;
+    top: 0;
+    font-size: 18px;
+}
+
+.main-nav{
+    display: none;
 }
 
 .main-nav li:not(:last-child){

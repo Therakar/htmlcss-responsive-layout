@@ -1,0 +1,13 @@
+
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+h2 i{
+    font-size: 100px;
+}
+
+.card p{
+    color: var(--third-color-light);
+    font-weight: 600;
+}

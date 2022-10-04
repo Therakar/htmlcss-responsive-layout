@@ -17,6 +17,16 @@ section{
     padding: 1.875rem 0;
 }
 
+.col{
+    width: 100%;
+    margin: .625rem 0;
+    padding: 0 .625rem;
+}
+
+.card{
+    padding: 1.875rem;
+}
+
 /* TYPHOGRAPHY */
 .list-inline{
     list-style: none;
@@ -36,25 +46,23 @@ section{
     justify-content: space-between;
 }
 
+.align-items-end{
+    align-items: flex-end;
+}
+
 .align-items-center{
     align-items: center;
 }
 
-/* BUTTONS */
-.hamburger{
-    border: none;
-    background: none;
-    color: white;
-    font-size: 1.7rem;
+.text-center{
+    text-align: center;
+}
+
+.align-bottom{
+    vertical-align: bottom;
 }
 
 /* DEBUG */
-
-.debug{
-    width: 100%;
-    height: 300px;
-}
-
 .debug-about-us{
     background-color: blue;
     width: 100%;
