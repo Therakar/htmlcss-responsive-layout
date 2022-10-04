@@ -9,8 +9,12 @@ section:nth-last-of-type(odd){
     border-radius: 1.25rem;
 }
 
-#highlights .card:first-child{
+#highlights .card:first-of-type{
     padding-bottom: 0;
+}
+
+#highlights .card:first-of-type{
+    flex-direction: column;
 }
 
 #highlights h2{

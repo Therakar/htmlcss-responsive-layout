@@ -10,6 +10,19 @@
         width: calc(100% / 3);
     }
 
+    #highlights .card:first-of-type{
+        flex-direction: column;
+    }
+
+    .highligts-btn{
+        width: 50%;
+    }
+
+    #highlights img{
+        width: 50%;
+    }
+
+    
     /* main-benefits */
     #benefits .col{
         width: calc(100% / 2);
@@ -29,6 +42,20 @@
     .main-nav{
         display: block;
     }
+
+    /*  */
+    #highlights .card:first-of-type{
+        flex-direction: row;
+    }
+
+    .highligts-btn{
+        width: 100%;
+    }
+
+    #highlights img{
+        width: 100%;
+    }
+
 
     /* main-planning */
     #planning .col{
