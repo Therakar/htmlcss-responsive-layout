@@ -23,19 +23,29 @@ section:nth-last-of-type(odd){
 
 #highlights img{
     padding-top: 1.25rem;
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 h2{
     padding-bottom: 1.25rem;
 }
 
-.card p{
-    line-height: 1.9;
-    padding-bottom: 1.25rem;
+/* PLANNING SECTION */
+#planning img{
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 50px;
 }
 
-/* PLANNING SECTION */
+#planning .card{
+    background-color: white;
+    border-radius: 40px;
+}
+
+#planning .card p{
+    padding: 30px 0;
+}
 
 /* BENEFITS SECTION */
 

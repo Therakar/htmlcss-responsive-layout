@@ -22,6 +22,7 @@
         width: 50%;
     }
 
+    /* main-planning */
     
     /* main-benefits */
     #benefits .col{
@@ -43,7 +44,7 @@
         display: block;
     }
 
-    /*  */
+    /* highlights */
     #highlights .card:first-of-type{
         flex-direction: row;
     }
